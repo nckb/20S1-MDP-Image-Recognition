@@ -30,7 +30,6 @@ As for RPi_Cam_Web_Interface, there should be no issues regardless of version. A
 
 Tested on a Dell XPS 13 running Windows 10. With an Intel 9th-gen Core i7 processor and an NVIDIA GeForce GTX 1050Ti, framerates in excess of 60fps were achieved.
 
-
 ## How to use
 
  **1. Install RPi_Cam_Web_Interface**
@@ -47,6 +46,8 @@ The most time consuming part was to compile darknet. Following the recommended i
  **3. Train model and generate weights**
 
 Take a sufficient number of pictures using the RPi camera. Use [LabelImg](https://github.com/tzutalin/labelImg) to draw bounding boxes and label each image. Try to use images taken at fixed distances, **within the arena and using the RPi camera only** to ensure accuracy of the weights. 
+
+![Multiple images mounted on a block](https://github.com/nckb/20S1-MDP-Image-Recognition/blob/main/images/images-lab-labeled/multi_10.jpeg?raw=true)
 
 To make things easier, you can attach multiple images to a block and swap them around.
 
