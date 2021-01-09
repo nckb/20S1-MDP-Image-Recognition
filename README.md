@@ -2,6 +2,8 @@
 
 This repository details the resources and code utilized to perform the image recognition component for NTU CE/CZ3004 Multi Disciplinary Project, 2020/21 Semester 1, Group 32.
 
+![All 5 images successfully detected](https://github.com/nckb/20S1-MDP-Image-Recognition/blob/main/images/success.png?raw=true)
+
 ## Introduction
 
 The RPi hosts a web server that serves a live MJPEG stream of the RPi's camera. Image recognition is performed in real-time on a PC using YOLOv4 Tiny. 
