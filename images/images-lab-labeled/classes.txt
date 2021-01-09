@@ -1,0 +1,15 @@
+0
+6
+7
+8
+9
+V
+W
+X
+Y
+Z
+ArrowDown
+ArrowLeft
+ArrowRight
+ArrowUp
+CircleGreen
