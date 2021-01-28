@@ -75,3 +75,7 @@ To show a real-time image recognition stream with bounding boxes, use the follow
 Replace the IP address with the IP address of your RPi, and the locations of the relevant files. This mode is useful when you need to show the TA that the image recognition is working, or for testing 
 
 `imgrec.py` contains the actual code used for the run. `imgrec_nonet.py` is the version without communication capabilities and may be useful for testing. However it is to be noted that **there is no penalty for false positives**, so there is no point to set a high threshhold for the actual run.
+
+## Demo
+
+![Live demo](https://github.com/nckb/20S1-MDP-Image-Recognition/blob/main/images/demo.gif?raw=true)
